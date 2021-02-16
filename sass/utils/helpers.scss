@@ -1,0 +1,61 @@
+.text-center {
+    text-align: center;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.rounded {
+    border-radius: 4px;
+}
+
+.color-primary {
+    color: $primary-color;
+}
+
+.color-secondary {
+    color: #555;
+}
+
+.color-white {
+    color: $white-color;
+}
+
+.line-space {
+    line-height: 40px;
+}
+
+.margin-top {
+    margin-top: 30px;
+}
+
+.margin-bottom {
+    margin-bottom: 30px;
+}
+
+.margin-both {
+    margin: 30px 0;
+}
+
+.brand {
+    font-family: 'Merienda';
+    font-size: 20px;
+    font-weight: 400;
+    color: $primary-color;
+}
+
+.mb_auto {
+    margin-bottom: auto;
+}
+
+
+.list-inline {
+    list-style-type: none;
+    display: flex;
+
+    li {
+        margin-right: 20px;
+        color: $white-color;
+    }
+}

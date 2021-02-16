@@ -1,0 +1,34 @@
+// food offer
+.food-offer {
+    width: 100%;
+    height: 500px;
+    background-image: url(/img/offer.png);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &-heading {
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    &-subheading {
+        font-weight: 300px;
+        letter-spacing: 5px;
+    }
+}
+.offer-btn {
+    text-decoration: none;
+    display: inline-block;
+    background: $white-color;
+    color: $primary-color;
+    padding: 10px 25px;
+    border-radius: 27px;
+    margin-top: 20px;
+    transition: 0.4s all;
+
+    &:hover {
+        background: $primary-color;
+        color: $white-color;
+    }
+}

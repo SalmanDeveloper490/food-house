@@ -1,0 +1,407 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h2 {
+  margin-bottom: 70px;
+}
+
+h3 {
+  color: #444;
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 25px;
+  color: #444;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #689f38;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+.food-about,
+.food-menu,
+.food-footer {
+  padding: 80px 0px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.rounded {
+  border-radius: 4px;
+}
+
+.color-primary {
+  color: #689f38;
+}
+
+.color-secondary {
+  color: #555;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.line-space {
+  line-height: 40px;
+}
+
+.margin-top {
+  margin-top: 30px;
+}
+
+.margin-bottom {
+  margin-bottom: 30px;
+}
+
+.margin-both {
+  margin: 30px 0;
+}
+
+.brand {
+  font-family: "Merienda";
+  font-size: 20px;
+  font-weight: 400;
+  color: #689f38;
+}
+
+.mb_auto {
+  margin-bottom: auto;
+}
+
+.list-inline {
+  list-style-type: none;
+  display: flex;
+}
+.list-inline li {
+  margin-right: 20px;
+  color: #fff;
+}
+
+.food-header {
+  width: 100%;
+  height: 600px;
+  background-image: url(/img/header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+}
+
+.valign-wrapper {
+  text-align: center;
+}
+.valign-wrapper .site-heading {
+  color: #fff;
+  font-family: "Merienda";
+  font-size: 100px;
+  font-weight: bold;
+}
+.valign-wrapper .site-subheading {
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 6px;
+  width: 600px;
+}
+
+.navbar {
+  width: 100%;
+  margin-bottom: auto;
+  background: rgba(255, 255, 255, 0.8);
+}
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.navbar a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  padding: 20px;
+}
+.navbar a.active {
+  color: #689f38;
+}
+
+figure {
+  position: relative;
+  width: 310px;
+  height: 310px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+}
+figure img {
+  width: 100%;
+  height: 100%;
+}
+figure .back {
+  position: absolute;
+  top: 40px;
+  left: -40px;
+  width: 100%;
+  height: 100%;
+  background: #689f38;
+  z-index: -1;
+}
+
+.food-icons {
+  width: 100px;
+  height: 100px;
+  background: #689f38;
+  color: #fff;
+  display: flex;
+  border-radius: 50%;
+}
+.food-icons i {
+  font-size: 40px;
+  margin: auto;
+}
+
+.food-offer {
+  width: 100%;
+  height: 500px;
+  background-image: url(/img/offer.png);
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.food-offer-heading {
+  font-size: 50px;
+  font-weight: 600;
+}
+.food-offer-subheading {
+  font-weight: 300px;
+  letter-spacing: 5px;
+}
+
+.offer-btn {
+  text-decoration: none;
+  display: inline-block;
+  background: #fff;
+  color: #689f38;
+  padding: 10px 25px;
+  border-radius: 27px;
+  margin-top: 20px;
+  transition: 0.4s all;
+}
+.offer-btn:hover {
+  background: #689f38;
+  color: #fff;
+}
+
+.food-testimonials {
+  width: 100%;
+  height: 500px;
+  background-image: url("/img/testimonial.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.testimonials {
+  width: 800px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 60px 30px;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+}
+.testimonials-text {
+  color: #444;
+  line-height: 40px;
+}
+.testimonials-user {
+  color: #689f38;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.menu {
+  list-style-type: none;
+}
+.menu_item {
+  display: flex;
+  justify-content: space-between;
+  color: #707070;
+  line-height: 50px;
+}
+.menu_price {
+  color: #689f38;
+}
+
+.food-footer {
+  background: #222;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons {
+  list-style-type: none;
+  display: flex;
+}
+.social-icons li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #689f38;
+  margin-right: 20px;
+  color: #fff;
+  transition: 0.4s all;
+}
+.social-icons li:hover {
+  background-color: #fff;
+  color: #689f38;
+}
+
+@media only screen and (max-width: 767px) {
+  .social-icons {
+    margin-bottom: 30px;
+  }
+
+  .food-testimonials {
+    height: auto;
+  }
+
+  figure {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .navbar a {
+    padding: 10px;
+  }
+
+  figure .back {
+    display: none;
+  }
+
+  .food-about,
+.food-menu,
+.food-footer {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .valign-wrapper .site-subheading {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 991px) {
+  h2 {
+    margin-bottom: 30px;
+  }
+
+  #food-menu h3 {
+    font-size: 20px;
+  }
+
+  .food-header .site-heading {
+    font-size: 50px;
+  }
+
+  .food-offer-heading {
+    font-size: 30px;
+  }
+
+  .valign-wrapper {
+    padding: 80px 30px;
+  }
+
+  .testimonials {
+    width: 100%;
+    margin: 0px auto;
+    padding: 30px;
+  }
+
+  .testimonials-text,
+.line-space {
+    line-height: normal;
+  }
+
+  .menu_item {
+    line-height: 30px;
+  }
+
+  #food-about {
+    padding-bottom: 120px;
+  }
+
+  .food-icons {
+    display: none;
+  }
+
+  .social-icons li {
+    padding: 20px;
+    margin-right: 12px;
+  }
+
+  .food-header {
+    height: 500px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .food-offer-subheading {
+    width: 600px;
+  }
+
+  figure .back {
+    top: 30px;
+    left: -20px;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1200px) and (orientation: landscape) {
+  h2 {
+    margin-bottom: 30px;
+  }
+
+  #food-menu h3 {
+    font-size: 20px;
+  }
+
+  .food-header .site-heading {
+    font-size: 50px;
+  }
+
+  .food-offer-heading {
+    font-size: 30px;
+  }
+
+  .food-header .site-subheading,
+.food-offer-subheading {
+    width: 500px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
